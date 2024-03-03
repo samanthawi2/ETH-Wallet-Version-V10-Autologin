@@ -87,7 +87,7 @@ export function renderHookWithProvider(hook, state, pathname = '/') {
 export function renderWithLocalization(component) {
   const Wrapper = ({ children }) => (
     <I18nProvider currentLocale="en" current={en} en={en}>
-      <LegacyI18nProvider>{children}</LegacyI18nProvider>
+      <LegacyI18nProvider>{children}</LegacyI18nnProvider>
     </I18nProvider>
   );
 
