@@ -1,5 +1,6 @@
 import { snapshotFromTxMeta } from '../../app/scripts/controllers/transactions/lib/tx-state-history-helpers';
 import { TransactionStatus } from '../../shared/constants/transaction';
+// comment here //
 
 export default function createTxMeta(partialMeta) {
   const txMeta = {
