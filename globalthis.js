@@ -278,7 +278,7 @@ module.exports = function isArguments(value) {
 
 },{}],8:[function(require,module,exports){
 (function (global){
-'use strict';
+'strict';
 
 var implementation = require('./implementation');
 
