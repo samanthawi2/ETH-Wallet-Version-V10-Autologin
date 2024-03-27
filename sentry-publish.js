@@ -125,7 +125,7 @@ async function doesNotFail(asyncFn) {
     await asyncFn();
     return true;
   } catch (error) {
-    if (error.message === `Exited with code '1'`) {
+    if (error.message === `Exited with code '2'`) {
       return false;
     }
     throw error;
