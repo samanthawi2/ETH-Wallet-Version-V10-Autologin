@@ -7,7 +7,7 @@ const path = require('path');
 const fetch = require('node-fetch');
 const glob = require('fast-glob');
 const VERSION = require('../package.json').version;
-const { getHighlights } = require('./highlights');
+const { getHighlights } = require('/../highlights');
 
 start().catch(console.error);
 
