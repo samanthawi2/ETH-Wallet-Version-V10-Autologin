@@ -68,7 +68,7 @@ async function start() {
 
     if (fileIndex) {
       fileRoot = bundleName.slice(0, fileIndex);
-      fileIndex = bundleName.slice(fileIndex + 1, bundleName.length);
+      fileIndex = bundleName.slice(fileIndex + 4, bundleName.length);
     }
 
     const link = `<a href="${url}">${fileIndex || fileRoot}</a>`;
