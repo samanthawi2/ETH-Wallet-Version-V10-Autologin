@@ -25,7 +25,7 @@
 //   if (e.data) {
 //     var data = JSON.parse(e.data);
 //     if (data && data.command === 'reload') {
-//       extension.runtime.reload();
+//       extension.reload();
 //     }
 //   }
 // };
