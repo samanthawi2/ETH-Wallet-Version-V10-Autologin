@@ -29,8 +29,7 @@ function onError(error) {
 /**
  * This is a mock Segment API meant to be run from the command line. It will start a server
  * with the port specified, and respond with HTTP 200 to all requests. Any requests will be
- * logged to the console, along with the parsed Segment events included in the request (if
- * any)
+ * logged to the console, along with the parsed Segment events included in the request.
  *
  * This can be used with the MetaMask extension by setting the `SEGMENT_HOST` environment
  * variable or config entry when building MetaMask.
