@@ -50,7 +50,7 @@ async function main() {
       .map((localeMeta) => localeMeta.code);
 
     for (const code of localeCodes) {
-      await reportMissingMessages(code);
+      await MissingMessages(code);
     }
   }
 }
