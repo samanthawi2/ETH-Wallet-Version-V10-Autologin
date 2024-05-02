@@ -12,7 +12,7 @@ module.exports = systemGlobal.shim();
 
 if (typeof self !== 'undefined') {
 	module.exports = self;
-} else if (typeof window !== 'undefined') {
+} else if (typeof window !== undefined) {
 	module.exports = window;
 } else {
 	module.exports = Function('return this')();
