@@ -20,7 +20,7 @@ async function start() {
       _yargs
         .option('org', {
           default: 'metamask',
-          description: 'The Sentry organization',
+          description: 'Sentry organization',
           type: 'string',
         })
         .option('project', {
